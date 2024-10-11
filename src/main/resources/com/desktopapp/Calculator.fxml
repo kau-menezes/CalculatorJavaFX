@@ -7,56 +7,56 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.desktopapp.CalculatorController">
+<VBox prefHeight="575.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.desktopapp.CalculatorController">
   <children>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="123.0" prefWidth="0.0" VBox.vgrow="ALWAYS">
       <children>
-            <Button fx:id="btn1" layoutX="141.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="1" textFill="WHITE">
+            <Button fx:id="btn1" layoutX="141.0" layoutY="168.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="1" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btn2" layoutX="196.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="2" textFill="WHITE">
+            <Button fx:id="btn2" layoutX="196.0" layoutY="168.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="2" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btn3" layoutX="251.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="3" textFill="WHITE">
+            <Button fx:id="btn3" layoutX="251.0" layoutY="168.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="3" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btn4" layoutX="141.0" layoutY="172.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="4" textFill="WHITE">
+            <Button fx:id="btn4" layoutX="141.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="4" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btn5" layoutX="196.0" layoutY="172.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="5" textFill="WHITE">
+            <Button fx:id="btn5" layoutX="196.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="5" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btn6" layoutX="251.0" layoutY="172.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="6" textFill="WHITE">
+            <Button fx:id="btn6" layoutX="251.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="6" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btn7" layoutX="141.0" layoutY="230.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="7" textFill="WHITE">
+            <Button fx:id="btn7" layoutX="141.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="7" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btn8" layoutX="196.0" layoutY="230.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="8" textFill="WHITE">
+            <Button fx:id="btn8" layoutX="196.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="8" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btn9" layoutX="251.0" layoutY="230.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="9" textFill="WHITE">
+            <Button fx:id="btn9" layoutX="251.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#numberValueInput" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #4287f5;" text="9" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Label fx:id="mainScreen" layoutX="141.0" layoutY="58.0" prefHeight="27.0" prefWidth="192.0" style="-fx-background-color: #c1c9d6;" textFill="#134391">
+            <Label fx:id="mainScreen" layoutX="141.0" layoutY="75.0" prefHeight="27.0" prefWidth="192.0" style="-fx-background-color: #c1c9d6;" textFill="#134391">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -72,27 +72,37 @@
                   <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                </padding>
             </Label>
-            <Button fx:id="btnDivide" layoutX="298.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#setOpperation" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="/" textFill="WHITE">
+            <Button fx:id="btnDivide" layoutX="298.0" layoutY="168.0" mnemonicParsing="false" onMouseClicked="#setOpperation" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="÷" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btnMult" layoutX="298.0" layoutY="172.0" mnemonicParsing="false" onMouseClicked="#setOpperation" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="*" textFill="WHITE">
+            <Button fx:id="btnMult" layoutX="298.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#setOpperation" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="×" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btnSub" layoutX="298.0" layoutY="230.0" mnemonicParsing="false" onMouseClicked="#setOpperation" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="-" textFill="WHITE">
+            <Button fx:id="btnSub" layoutX="298.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#setOpperation" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="-" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btnSum" layoutX="298.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#setOpperation" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="+" textFill="WHITE">
+            <Button fx:id="btnSum" layoutX="298.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#setOpperation" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="+" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button fx:id="btnEquals" layoutX="196.0" layoutY="280.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #f54242;" text="=" textFill="WHITE">
+            <Button fx:id="btnEquals" layoutX="140.0" layoutY="330.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="147.0" style="-fx-background-color: #f54242;" text="=" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="cButton" layoutX="141.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#clear" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="C" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="ceButton" layoutX="298.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#clearEntry" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #2d4673;" text="CE" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>

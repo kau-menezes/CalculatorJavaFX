@@ -1,6 +1,7 @@
 package com.desktopapp;
 
 import java.net.URL;
+import java.util.ArrayList;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -12,6 +13,7 @@ import javafx.scene.input.MouseEvent;
 public class CalculatorController {
 
     protected String opperation;
+    protected ArrayList<String> numbers =  new ArrayList<>();
 
     public static Scene CreateScene() throws Exception
     {
@@ -72,9 +74,52 @@ public class CalculatorController {
     {
         Button button = (Button) e.getSource();
         this.opperation = button.getText();
+        numbers.add(this.mainScreen.getText());
+        numbers.add(opperation);
+        System.out.println(numbers);
 
-        this.secondScreen.setText(this.mainScreen.getText().concat("  " + opperation));
+        displayOpperation();
         this.mainScreen.setText("");
+    }
+
+    @FXML
+    protected void displayOpperation()
+    {
+        
+        secondScreen.setText("");
+        
+        for (String string : numbers) {
+            System.out.println(string);
+            secondScreen.setText(secondScreen.getText().concat(string).concat("  "));
+        }
+    }
+
+    @FXML
+    protected void clear() 
+    {
+        numbers.removeAll(numbers);
+        
+    }
+
+    @FXML 
+    protected void clearEntry()
+    {
+        mainScreen.setText("");
+    }
+
+    @FXML
+    protected void executeOpperation()
+    {
+        numbers.add(this.mainScreen.getText());
+        displayOpperation();
+
+        @SuppressWarnings("unchecked")
+        ArrayList<String> result = (ArrayList<String>) numbers.clone();
+
+        while (numbers.size() > 1)
+        {
+            
+        }
     }
 
 }
